@@ -12,7 +12,7 @@ describe('getTheTitles', () => {
     }
   ]
 
-  test.skip('gets titles', () => {
+  test('gets titles', () => {
     expect(getTheTitles(books)).toEqual(['Book', 'Book2']);
   });
 });
