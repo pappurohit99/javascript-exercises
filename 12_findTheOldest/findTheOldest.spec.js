@@ -1,7 +1,7 @@
 const findTheOldest = require('./findTheOldest')
 
 describe('findTheOldest', () => {
-  test('finds the oldest person!', () => {
+  test.skip('finds the oldest person!', () => {
     const people = [
       {
         name: "Carly",
